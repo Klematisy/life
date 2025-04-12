@@ -17,5 +17,5 @@ cmake --build build --parallel
 
 ### Do this on linux
 Then go to the main directory and open CMakeLists.txt.
-At the end 9 line of cmake code you change "dylib" on "so"
+At the end of 9 line of the cmake code you need to change "dylib" on "so"
 
