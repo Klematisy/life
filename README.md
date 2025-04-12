@@ -2,7 +2,7 @@
 
 ### My realization of the life game on C and vladlib (my own wrap over OpenGL)
 
-<img src="life_video.gif" width="400" height="290">
+<img src="life_video.gif" width="400" height="350">
 
 ## MacOS or Linux
 ```
