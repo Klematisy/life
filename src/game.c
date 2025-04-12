@@ -134,8 +134,8 @@ void game_draw(void) {
 }
 
 void game_init(void) {
-    field_width  = 30;
-    field_height = 30;
+    field_width  = 40;
+    field_height = 40;
     game_field = (uint32_t*) malloc(sizeof(uint32_t) * field_width * field_height);
 
     for (uint32_t i = 0; i < field_height; i++) {

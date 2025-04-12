@@ -2,6 +2,8 @@
 
 ### My realization of the life game on C and vladlib (my own wrap over OpenGL)
 
+![life_video.gif](life_video.gif)
+
 ## MacOS or Linux
 ```
 git clone https://github.com/Klematisy/life.git
@@ -41,4 +43,4 @@ build/life
 SPACE - start/stop life
 
 left mouse button - fill a cell\
-escape - quit
+escape - quit!\
