@@ -15,7 +15,24 @@ cmake -S . -B build
 cmake --build build --parallel
 ```
 
-### Do this on linux
+### Linux:
 Then go to the main directory and open CMakeLists.txt.
 At the end of 9 line of the cmake code you need to change "dylib" on "so"
+
+```
+cmake -S . -B build
+cmake --build build --parallel
+build/life
+```
+
+### MacOS
+Just run the CMakeLists.txt
+
+```
+cmake -S . -B build
+cmake --build build --parallel
+build/life
+```
+
+
 
