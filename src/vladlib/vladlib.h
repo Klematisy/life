@@ -73,6 +73,7 @@ bool vl_up_pressed(void);
 bool vl_down_pressed(void);
 bool vl_right_pressed(void);
 bool vl_lshift_pressed(void);
+bool vl_rshift_pressed(void);
 bool vl_equal_pressed(void);
 bool vl_plus_pressed(void);
 bool vl_minus_pressed(void);

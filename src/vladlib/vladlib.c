@@ -132,17 +132,18 @@ void vl_draw_rect(VL_Rect *rect) {
 }
 
 // INPUT KEYBOARD FUNCTIONS
-bool vl_left_pressed(void)   { return glfwGetKey(window,  GLFW_KEY_LEFT       )  ==  GLFW_PRESS; }
-bool vl_right_pressed(void)  { return glfwGetKey(window,  GLFW_KEY_RIGHT      )  ==  GLFW_PRESS; }
-bool vl_up_pressed(void)     { return glfwGetKey(window,  GLFW_KEY_UP         )  ==  GLFW_PRESS; }
-bool vl_down_pressed(void)   { return glfwGetKey(window,  GLFW_KEY_DOWN       )  ==  GLFW_PRESS; }
-bool vl_lshift_pressed(void) { return glfwGetKey(window,  GLFW_KEY_LEFT_SHIFT )  ==  GLFW_PRESS; }
-bool vl_equal_pressed(void)  { return glfwGetKey(window,  GLFW_KEY_EQUAL      )  ==  GLFW_PRESS; }
-bool vl_plus_pressed(void)   { return vl_lshift_pressed() && vl_equal_pressed();                     }
-bool vl_minus_pressed(void)  { return glfwGetKey(window,  GLFW_KEY_MINUS      )  ==  GLFW_PRESS; }
-bool vl_esc_pressed(void)    { return glfwGetKey(window,  GLFW_KEY_ESCAPE     )  ==  GLFW_PRESS; }
-bool vl_space_pressed(void)  { return glfwGetKey(window,  GLFW_KEY_SPACE      )  ==  GLFW_PRESS; }
-bool vl_e_pressed(void)      { return glfwGetKey(window,  GLFW_KEY_E          )  ==  GLFW_PRESS; }
+bool vl_left_pressed(void)   { return glfwGetKey(window,  GLFW_KEY_LEFT        )  ==  GLFW_PRESS;      }
+bool vl_right_pressed(void)  { return glfwGetKey(window,  GLFW_KEY_RIGHT       )  ==  GLFW_PRESS;      }
+bool vl_up_pressed(void)     { return glfwGetKey(window,  GLFW_KEY_UP          )  ==  GLFW_PRESS;      }
+bool vl_down_pressed(void)   { return glfwGetKey(window,  GLFW_KEY_DOWN        )  ==  GLFW_PRESS;      }
+bool vl_lshift_pressed(void) { return glfwGetKey(window,  GLFW_KEY_LEFT_SHIFT  )  ==  GLFW_PRESS;      }
+bool vl_rshift_pressed(void) { return glfwGetKey(window,  GLFW_KEY_RIGHT_SHIFT )  ==  GLFW_PRESS;      }
+bool vl_equal_pressed(void)  { return glfwGetKey(window,  GLFW_KEY_EQUAL       )  ==  GLFW_PRESS;      }
+bool vl_plus_pressed(void)   { return (vl_lshift_pressed() || vl_rshift_pressed()) && vl_equal_pressed();  }
+bool vl_minus_pressed(void)  { return glfwGetKey(window,  GLFW_KEY_MINUS       )  ==  GLFW_PRESS;      }
+bool vl_esc_pressed(void)    { return glfwGetKey(window,  GLFW_KEY_ESCAPE      )  ==  GLFW_PRESS;      }
+bool vl_space_pressed(void)  { return glfwGetKey(window,  GLFW_KEY_SPACE       )  ==  GLFW_PRESS;      }
+bool vl_e_pressed(void)      { return glfwGetKey(window,  GLFW_KEY_E           )  ==  GLFW_PRESS;      }
 
 // INPUT MOUSE FUNCTIONS
 Object2 vl_get_cursor_pos(void) {
