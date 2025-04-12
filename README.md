@@ -34,5 +34,11 @@ cmake --build build --parallel
 build/life
 ```
 
+### Controls
 
+"+"   - increase frequency of iterations
+"-"   - decrease frequency of iterations
+SPACE - start/stop life
 
+left mouse button - fill a cell
+escape - quit
