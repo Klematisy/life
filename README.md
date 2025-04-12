@@ -36,9 +36,9 @@ build/life
 
 ### Controls
 
-"+"   - increase frequency of iterations
-"-"   - decrease frequency of iterations
+"+"   - increase frequency of iterations\
+"-"   - decrease frequency of iterations\
 SPACE - start/stop life
 
-left mouse button - fill a cell
+left mouse button - fill a cell\
 escape - quit
