@@ -2,7 +2,7 @@
 
 ### My realization of the life game on C and vladlib (my own wrap over OpenGL)
 
-<img src="life_video.gif" width="400" height="280">
+<img src="life_video.gif" width="80%">
 
 ## MacOS or Linux
 ```
@@ -43,4 +43,4 @@ build/life
 SPACE - start/stop life
 
 left mouse button - fill a cell\
-escape - quit!\
+escape - quit!
